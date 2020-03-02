@@ -1,22 +1,14 @@
-Spell Checker
+# Spell Checker
 
-Test cases examples
+## Test Cases - Input / Outout
 
-"worrd" "~worrd~"
-"the worrd" "the ~worrd~"
+* "world" "world"
+* "worrd" "~worrd~"
 
-"1" ArgumentError
+* "home" "home"
+* "hmme" "~hmme~"
 
-CORRECT_WORDS = ["world"]
+* "world home" "world home"
+* "worrd home" "~worrd~ home"
 
-INPUT OUTPUT
-"world" "world"
-"worrd" "~worrd~"
-
-"home" "home"
-"hmme" "~hmme~"
-
-"world home" "world home"
-"worrd home" "~worrd~ home"
-
-1 ArgumentError
+* 1 ArgumentError
