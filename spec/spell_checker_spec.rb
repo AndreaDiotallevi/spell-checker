@@ -8,4 +8,8 @@ describe "spell_checker" do
   it "should return '~worrd~' if given 'worrd" do
     expect(spell_checker("worrd")).to eq "~worrd~"
   end
+
+  it "should return 'home' if given 'home" do
+    expect(spell_checker("home")).to eq "home"
+  end
 end

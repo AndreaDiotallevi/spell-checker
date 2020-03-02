@@ -12,3 +12,6 @@ CORRECT_WORDS = ["world"]
 INPUT OUTPUT
 "world" "world"
 "worrd" "~worrd~"
+
+"home" "home"
+"hmme" "~hmme~"
