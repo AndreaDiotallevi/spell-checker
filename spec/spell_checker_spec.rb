@@ -20,4 +20,8 @@ describe "spell_checker" do
   it "should return 'world home' if given 'world home'" do
     expect(spell_checker("world home")).to eq "world home"
   end
+
+  it "should return '~worrd~ home' if given 'worrd home'" do
+    expect(spell_checker("worrd home")).to eq "~worrd~ home"
+  end
 end
