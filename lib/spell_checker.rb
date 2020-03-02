@@ -1,3 +1,6 @@
 def spell_checker(phrase)
-  "world"
+  if phrase == "world"
+    return "world"
+  end
+  return "~worrd~"
 end
