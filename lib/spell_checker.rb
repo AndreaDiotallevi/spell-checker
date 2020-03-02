@@ -5,5 +5,5 @@ def spell_checker(phrase)
     return phrase
   end
   
-  return "~worrd~"
+  "~" + phrase + "~"
 end
