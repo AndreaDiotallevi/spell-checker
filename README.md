@@ -18,3 +18,5 @@ INPUT OUTPUT
 
 "world home" "world home"
 "worrd home" "~worrd~ home"
+
+1 ArgumentError

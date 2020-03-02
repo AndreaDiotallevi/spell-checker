@@ -24,4 +24,8 @@ describe "spell_checker" do
   it "should return '~worrd~ home' if given 'worrd home'" do
     expect(spell_checker("worrd home")).to eq "~worrd~ home"
   end
+
+  it "should raise an argument error if the input is a number" do
+    expect { spell_checker(1) }.to raise_error "The input is not a string"
+  end
 end
