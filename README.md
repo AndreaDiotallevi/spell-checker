@@ -15,3 +15,6 @@ INPUT OUTPUT
 
 "home" "home"
 "hmme" "~hmme~"
+
+"world home" "world home"
+"worrd home" "~worrd~ home"

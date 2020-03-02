@@ -16,4 +16,8 @@ describe "spell_checker" do
   it "should return '~hmme~' if given 'hmme'" do
     expect(spell_checker("hmme")).to eq "~hmme~"
   end
+
+  it "should return 'world home' if given 'world home'" do
+    expect(spell_checker("world home")).to eq "world home"
+  end
 end

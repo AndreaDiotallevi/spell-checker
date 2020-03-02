@@ -1,9 +1,15 @@
 CORRECT_WORDS = ["world", "home"]
 
 def spell_checker(phrase)
-  if CORRECT_WORDS.include? phrase
-    return phrase
+  words = phrase.split(" ")
+  checked_phrase = []
+
+  words.each do |word|
+    if CORRECT_WORDS.include? word
+      checked_phrase.push(word)
+    else
+      checked_phrase.push("~" + word + "~")
+    end
   end
-  
-  "~" + phrase + "~"
+  checked_phrase.join(" ")
 end
